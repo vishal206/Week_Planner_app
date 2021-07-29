@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046929700965",
+    "project_id": "week-planner-63c60",
+    "storage_bucket": "week-planner-63c60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046929700965:android:5bc667e44321c9db8aee8c",
+        "android_client_info": {
+          "package_name": "com.example.week_planner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046929700965-vle3cfa66o8foqvpie9b9o4it1jhslqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFwP9wBxvbckDiiVD1A-HMnySkyU5sf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046929700965-vle3cfa66o8foqvpie9b9o4it1jhslqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

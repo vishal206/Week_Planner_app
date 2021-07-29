@@ -9,17 +9,17 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button btn_cont;
+    private Button btn_signUp,btn_login;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn_cont=findViewById(R.id.btn_continue);
-        btn_cont.setOnClickListener(new View.OnClickListener() {
+        btn_signUp=findViewById(R.id.btn_signUp);
+        btn_signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,Home.class));
+                startActivity(new Intent(MainActivity.this,registerActivity.class));
                 finish();
             }
         });
